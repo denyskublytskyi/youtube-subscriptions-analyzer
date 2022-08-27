@@ -1,0 +1,25 @@
+{
+  "name": "youtube-subscriptions-analyzer",
+  "repository": "https://github.com/denyskublytskyi/youtube-subscriptions-analyzer",
+  "author": "Denys Kublytskyi <deniskublitskiy@gmail.com>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "countries-code": "^1.1.0",
+    "dotenv-safe": "^8.2.0",
+    "googleapis": "^107.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
