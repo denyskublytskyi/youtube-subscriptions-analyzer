@@ -138,11 +138,13 @@ const server = http.createServer(async (req, res) => {
     "code"
   );
 
+  res.writeHead(200);
+  res.end("ok");
+
   if (!code) {
-    res.writeHead(200);
-    res.end("ok");
     return;
   }
+
   const { tokens } = await oauth2Client.getToken(code);
   oauth2Client.setCredentials(tokens);
 
