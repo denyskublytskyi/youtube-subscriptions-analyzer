@@ -6,7 +6,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix .",
+    "start": "node -r dotenv-safe/config ."
   },
   "dependencies": {
     "countries-code": "^1.1.0",
